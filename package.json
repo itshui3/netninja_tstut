@@ -1,0 +1,20 @@
+{
+  "name": "netninja_tstut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sandbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itshui3/netninja_tstut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itshui3/netninja_tstut/issues"
+  },
+  "homepage": "https://github.com/itshui3/netninja_tstut#readme"
+}
