@@ -1,0 +1,1 @@
+let compile: string = 'hey'

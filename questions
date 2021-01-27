@@ -1,0 +1,21 @@
+in typescript, object properties are locked-in
+can't add or take away properties
+why is this an advantage? 
+
+typescript has to be compiled down to javascript
+what are some different ways this occurs? 
+how does it happen in react? 
+
+let ninjaTwo: object = {
+    name: 'mario',
+    age: 30,
+    beltColour: 'hi'
+}
+
+let ninjaTwo = {
+    name: string = 'mario',
+    age: number = 30,
+    beltColour: string = 'hi'
+}
+
+why can't I type + assign object properties? 
