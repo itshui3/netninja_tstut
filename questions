@@ -1,21 +1,14 @@
-in typescript, object properties are locked-in
-can't add or take away properties
-why is this an advantage? 
 
-typescript has to be compiled down to javascript
-what are some different ways this occurs? 
-how does it happen in react? 
+typescript unintuitive concepts: 
+type aliases
+- why? 
+when type definitions become verbose, type aliasing allows us to offload that logic elsewhere relying on it as a predefined typing packaged into variable-like syntax
+this also allows for re-use and centralizing type definitions
 
-let ninjaTwo: object = {
-    name: 'mario',
-    age: 30,
-    beltColour: 'hi'
-}
+function signatures
+- if we have type aliases that we can rely upon on function dec, why would we need to pre-declare function signatures? Seems incredibly superfluous
 
-let ninjaTwo = {
-    name: string = 'mario',
-    age: number = 30,
-    beltColour: string = 'hi'
-}
+*so if typescript's intellisense can detect type methods/properties how do we take advantage of this?
 
-why can't I type + assign object properties? 
+in ts some of the declarations seem to have nomenclature that doesn't matter so much
+why/when
