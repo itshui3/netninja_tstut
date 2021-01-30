@@ -1,0 +1,14 @@
+
+typescript unintuitive concepts: 
+type aliases
+- why? 
+when type definitions become verbose, type aliasing allows us to offload that logic elsewhere relying on it as a predefined typing packaged into variable-like syntax
+this also allows for re-use and centralizing type definitions
+
+function signatures
+- if we have type aliases that we can rely upon on function dec, why would we need to pre-declare function signatures? Seems incredibly superfluous
+
+*so if typescript's intellisense can detect type methods/properties how do we take advantage of this?
+
+in ts some of the declarations seem to have nomenclature that doesn't matter so much
+why/when

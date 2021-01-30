@@ -1,0 +1,9 @@
+If I can describe the lesson content, then I'm good
+
+14: modules
+
+we use tsconfig.json to configure the type of importing we wanna use
+then we import with that methodology
+
+the import methodology seems to require some 
+level of compatibility with the compilation of ts[feel murky on this part]
